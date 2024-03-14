@@ -1,0 +1,107 @@
+.navbar {
+  background-color: #2c3e50;
+  padding-block: 30px;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+.nav-link {
+  color: white;
+  margin-inline: 14px;
+}
+.nav-link:hover {
+  color: white;
+}
+.nav-link:focus {
+  color: white;
+  background-color: #1abc9c;
+  border-radius: 10px;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+.homeStyle {
+  background-color: #1abc9c;
+  height: 80vh;
+}
+.firstLine {
+  background-color: white;
+  height: 4px;
+  width: 25%;
+  margin-right: 20px;
+}
+.scndLine {
+  background-color: white;
+  height: 4px;
+  width: 25%;
+  margin-left: 20px;
+}
+.greyy {
+  color: #2c3e50;
+}
+.firstLine1 {
+  background-color: #2c3e50;
+  height: 4px;
+  width: 25%;
+  margin-left: 20px;
+}
+.scndLine1 {
+  background-color: #2c3e50;
+  height: 4px;
+  width: 25%;
+  margin-left: 20px;
+}
+.form-control {
+  border: none;
+  border-bottom: 0.5px solid rgb(225, 211, 211);
+}
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 0.5px solid rgb(225, 211, 211);
+}
+.contactBg {
+  background-color: white;
+}
+.btn {
+  color: white;
+  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  border-radius: var(--bs-btn-border-radius);
+  background-color: #1abc9c;
+}
+.btn:hover {
+  color: white;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+.btn:focus {
+  color: white !important;
+  background-color: #1abc9c !important;
+}
+/* -----------PORTFOLIO--------- */
+.portfolioItem {
+  position: relative;
+  
+}
+.portfolioItem:hover .plus{
+  display: flex;
+}
+
+.plus {
+  position: absolute;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #1abc9cc9;
+  display: none;
+  transition: all 1s;
+  cursor: pointer;
+}
+.plus i {
+  color: white;
+  font-size: 80px;
+  font-weight: bolder;
+}

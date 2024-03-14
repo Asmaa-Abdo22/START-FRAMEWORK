@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 30px;
+  background-color: #2c3e50;
+  color: white;
+
+}
+.loc {
+  font-size: 28px;
+  font-weight: bold;
+}
+.social {
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyRight {
+  background-color: #1a252f;
+  color: white;
+  text-align: center;
+  padding-block: 30px;
+}
